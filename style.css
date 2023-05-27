@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+p{
+    color: white;
+}
+header{
+    background-color: cyan;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .studentsPortal{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color:black;
+    background: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border: 3px solid black;
+    transition: 0.4s;
+    transition-property: background;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 18px;
+}
+
+header .navigation a:hover{
+    background-color: aquamarine;
+}
+
+.content{
+    max-width: 600px;
+    margin: 55px 100px;
+}
+
+.content .info h2{
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.content .info h2 span{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content .info p{
+    font-size: 16px;
+    margin: 40px;
+}
+
+.content .info-btn{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.4;
+    transition-property: backgroud;
+}
+
+.content .info-btn:hover{
+    background: #336a92;
+}
+

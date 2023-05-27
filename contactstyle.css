@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: red;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    background-size: cover;
+    background-position: center;}
+header{
+    background-color: cyan;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .studentsPortal{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a{
+    color:black;
+    background: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border: 3px solid black;
+    transition: 0.4s;
+    transition-property: background;
+}
+
+#btn{
+    border: 2px solid black;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.submenu1{
+    padding: 30px 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 90px;
+    margin-bottom: 100px;
+    margin-top: 0;
+}

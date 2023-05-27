@@ -1,0 +1,26 @@
+body {
+	color: #17D4FE;
+	font-size: 50px;
+	background-color: black;
+}
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	border: 3px solid blueviolet;
+	border-radius: 20px;
+}
+
+#dat {
+	float: right;
+}
+
+#clock {
+	font-size: 170px;
+	width: 900px;
+	/* margin: 200px; */
+	text-align: center;
+	border: 3px solid blueviolet;
+	color: #17D4FE;
+	border-radius: 20px;
+}
